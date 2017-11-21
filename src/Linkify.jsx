@@ -47,7 +47,7 @@ class Linkify extends React.Component {
         elements.push(string.substring(lastIndex, match.index));
       }
       // Shallow update values that specified the match
-      let props = {href: match.url, key: `parse${this.parseCounter}match${idx}`};
+      let props = {href: match.url, target: '_blank', key: `parse${this.parseCounter}match${idx}`};
       for (let key in this.props.properties) {
         let val = this.props.properties[key];
         if (val === Linkify.MATCH) {
