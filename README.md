@@ -1,3 +1,13 @@
+# Forked repository for Citylity
+
+This repository is used in most of our web tools, and it was forked for one simple reason. It was not possible to set a target for the links, and we want all of the links to open in a new window.
+
+The main commit that shows the changes is:
+
+[https://github.com/happyfreemo69/react-linkify/commit/7cb98eded757ceff1d4ab1debda0b407f8fc7d36](https://github.com/happyfreemo69/react-linkify/commit/7cb98eded757ceff1d4ab1debda0b407f8fc7d36)
+
+---
+
 # [react-linkify](http://tasti.github.io/react-linkify/)
 React component to parse links (urls, emails, etc.) in text into clickable links
 
